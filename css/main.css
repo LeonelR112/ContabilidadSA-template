@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+header{
+    color: rgb(233, 233, 233);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.font-main{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*títulos*/
+.main-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.saludos{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+/*-------*/
+
+/*colores*/
+
+.bg-main{
+    background: linear-gradient(90deg, rgba(16,32,87,1) 0%, rgba(31,98,172,1) 35%, rgba(70,167,255,1) 100%);
+}
+
+/*-------*/
+
+.banner{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav-bar{
+    background: linear-gradient(0deg, rgba(177,177,177,1) 0%, rgba(255,255,255,1) 100%);
+    width: 100%;
+}
+
+
+.nav-link-main{
+    padding: 0.7em;
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+}
+
+.presentacion{
+    background: url('../assets/imgs/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    border-bottom: 1px solid grey;
+    box-shadow: 1px 1px 30px rgb(107, 107, 107);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
