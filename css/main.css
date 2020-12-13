@@ -52,6 +52,10 @@ header{
     color: rgb(39, 39, 39);
 }
 
+.banner a{
+    text-decoration: none;
+}
+
 .font-main{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -94,6 +98,10 @@ header{
     color: white;
 }
 
+.bg-main-blue{
+    background-color:  rgba(31,98,172,1)
+}
+
 /*-------*/
 
 .banner{
@@ -122,7 +130,7 @@ header{
     background-position: center;
     height: 40em;
     border-bottom: 1px solid grey;
-    box-shadow: 1px 1px 30px rgb(107, 107, 107);
+    box-shadow: 1px 1px 3px rgb(107, 107, 107);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,4 +139,24 @@ header{
 
 .picture{
     transform: rotateZ(-3deg);
+}
+
+.main-card{
+    width: 450px;
+    padding: 0.5em;
+    border: 1px solid grey;
+}
+
+.final-info{
+    height: 20em;
+}
+
+.testi{
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    margin-left: 1em;
+}
+
+.user{
+    font-style: italic;
 }
