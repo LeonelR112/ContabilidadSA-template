@@ -172,6 +172,8 @@ footer{
     border: 2px solid rgb(207, 207, 207);
     border-radius: 5px;
     margin-left: 1em;
+    width: 280px;
+    margin: 0.7em;
 }
 
 .user{
@@ -184,5 +186,6 @@ footer{
 
 .flexbox-testi{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

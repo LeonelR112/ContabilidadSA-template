@@ -1,0 +1,7 @@
+.photoStyle{
+    height: 20em;
+    width: 370px;
+    padding: 0.7em;
+    box-shadow: 2px 2px 3px grey;
+    transform: rotateZ(-2deg);
+}
