@@ -5,3 +5,14 @@
     box-shadow: 2px 2px 3px grey;
     transform: rotateZ(-2deg);
 }
+
+.firma{
+    height: 5em;
+    color: white;
+    font-weight: bold;
+    line-height: 5em;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 3px grey;
+}
