@@ -80,7 +80,7 @@ footer{
     color: white;
     font-family: 'Times New Roman', Times, serif;
 
-    animation: fadeIn ease-in 1500ms;
+    animation: fadeIn ease-in 1000ms;
 }
 
 .saludos{
@@ -97,6 +97,13 @@ footer{
     border-bottom: 3px solid rgb(104, 152, 255);
     border-left: 20px solid rgb(103, 139, 255);
 }
+
+@media (max-width: 540px){
+    .title2{
+        font-size: 25px;
+    }
+}
+
 /*-------*/
 
 /*colores*/
