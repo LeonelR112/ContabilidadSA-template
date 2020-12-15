@@ -147,7 +147,8 @@ footer{
     background: url('../assets/imgs/banner2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 0px 0%;
     height: 40em;
     border-bottom: 1px solid grey;
     box-shadow: 1px 1px 3px rgb(107, 107, 107);
