@@ -102,6 +102,7 @@ footer{
     .title2{
         font-size: 25px;
     }
+
 }
 
 /*-------*/
@@ -179,7 +180,7 @@ footer{
     border: 2px solid rgb(207, 207, 207);
     border-radius: 5px;
     margin-left: 1em;
-    width: 280px;
+    width: 350px;
     margin: 0.7em;
 }
 
