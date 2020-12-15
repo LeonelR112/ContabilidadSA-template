@@ -98,7 +98,7 @@ footer{
     border-left: 20px solid rgb(103, 139, 255);
 }
 
-@media (max-width: 540px){
+@media (max-width: 766px){
     .title2{
         font-size: 25px;
     }
@@ -201,3 +201,31 @@ footer{
 #textArea{
     resize: none;
 }
+
+/*barra de navegación*/
+
+@media (max-width: 660px){
+    .nav-bar{
+        display: none;
+    }
+
+    .button-nav-bar{
+        display: block;
+        position: fixed;
+        top: 1.7em;
+        right: 1em;
+        border-radius: 100%;
+        box-shadow: 2px 2px 4px black;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 660px){
+    .button-nav-bar{
+        display: none;
+    }
+}
+
+
+
+/*-------------------*/
