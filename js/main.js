@@ -25,6 +25,7 @@ $(window).ready(function (){
         let scrollPositionTop = $(window).scrollTop()
         let menu = document.getElementById('navBar');
 
+        //menu
         if(scrollPositionTop >= 156){
             menu.style.position = "fixed";
             menu.style.top = "0px"
@@ -34,9 +35,20 @@ $(window).ready(function (){
             menu.style.position = "relative";
         }
 
+        //background aninmado
         let presentacion = document.getElementById('presentacion');
 
         presentacion.style.backgroundPositionY = parseInt(scrollPositionTop / 3) + "%"
+
+        let height = window.innerHeight;
+
+        if(scrollPositionTop < height){
+            document.getElementById('cajaAnimationIn').style.animation = "sideIn 1250ms ease-in";
+        }
+
+        if(scrollPositionTop > height){
+            document.getElementById('cajaAnimationOut-In').style.animation = "out-in 1000ms ease-in";
+        }
 
     });
 
