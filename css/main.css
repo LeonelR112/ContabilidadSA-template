@@ -124,11 +124,6 @@ footer{
 
 /*-------*/
 
-.text-grey{
-    color: rgb(177, 177, 177);
-}
-
-
 .banner{
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
@@ -204,9 +199,27 @@ footer{
 
 /*barra de navegación*/
 
+.menu-responsive{
+    background: linear-gradient(0deg, rgba(184, 182, 182,0.95) 0%, rgba(255,255,255,0.95) 100%);
+    position: fixed;
+    width: 100%;
+    top: -500px;
+    z-index: 60;
+    box-shadow: 2px 2px 5px grey;
+
+    transition-property: position, top;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
 @media (max-width: 660px){
     .nav-bar{
         display: none;
+    }
+
+    .nav-link-main{
+        color: black;
+        font-weight: bold;
     }
 
     .button-nav-bar{
@@ -216,7 +229,7 @@ footer{
         right: 1em;
         border-radius: 100%;
         box-shadow: 2px 2px 4px black;
-        z-index: 100;
+        z-index: 50;
     }
 }
 
